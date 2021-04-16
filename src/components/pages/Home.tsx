@@ -1,5 +1,12 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../ExploreContainer';
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from '@ionic/react'
+
+import ExploreContainer from '../ExploreContainer'
 
 const Home: React.FC = () => {
   return (
@@ -18,7 +25,7 @@ const Home: React.FC = () => {
         <ExploreContainer />
       </IonContent>
     </IonPage>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

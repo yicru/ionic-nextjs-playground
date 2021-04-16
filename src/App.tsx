@@ -1,8 +1,9 @@
+import { IonApp, IonRouterOutlet } from '@ionic/react'
+import { IonReactRouter } from '@ionic/react-router'
 import React from 'react'
-import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-import Home from './components/pages/Home';
+import { Redirect, Route } from 'react-router-dom'
+
+import Home from './components/pages/Home'
 
 const App: React.FC = () => (
   <IonApp>
@@ -17,6 +18,6 @@ const App: React.FC = () => (
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
-);
+)
 
-export default App;
+export default App

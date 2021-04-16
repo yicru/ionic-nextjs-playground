@@ -1,7 +1,7 @@
-import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic'
 
 const App = dynamic(() => import('../App'), {
-    ssr: false,
-});
+  ssr: false,
+})
 
-export default () => <App/>
+export default () => <App />
