@@ -2,6 +2,8 @@ import Head from 'next/head';
 import {AppProps} from 'next/app'
 import {Fragment} from 'react'
 
+import 'tailwindcss/tailwind.css'
+
 import '@ionic/react/css/core.css';
 import '@ionic/react/css/padding.css';
 import '@ionic/react/css/float-elements.css';
