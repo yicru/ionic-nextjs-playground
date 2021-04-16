@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ExploreContainer: React.FC = () => {
+export const ExploreContainer: React.VFC = () => {
   return (
     <>
       <div className="container">
@@ -45,5 +45,3 @@ const ExploreContainer: React.FC = () => {
     </>
   )
 }
-
-export default ExploreContainer
