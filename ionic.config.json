@@ -1,0 +1,7 @@
+{
+  "name": "ionic-nextjs-playground",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
